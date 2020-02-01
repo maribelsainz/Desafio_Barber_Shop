@@ -1,0 +1,38 @@
+/* Base Typography*/
+h1 {
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $xx-large;
+
+}
+
+h2 {
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+h3 {
+  font-family: $playfair;
+  font-weight: $regular;
+  font-size: $large;
+  color: color-light-gray;
+}
+
+h4,
+p {
+  font-family: $roboto;
+  font-weight: $light;
+  font-size: $medium;
+
+  span {
+    color: $color-ruddy-pink;
+  }
+}
+
+h5,
+h6 {
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $small;
+}
