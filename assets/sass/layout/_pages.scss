@@ -1,0 +1,18 @@
+.pages {
+  height: 110px;
+  padding-top: 35px;
+  background: $color-light-gray;
+}
+
+.pages__link {
+  color: $color-raisin-black;
+
+  &:hover {
+    color: $color-raisin-black;
+  }
+}
+
+.pages__link-act {
+  background-color: $color-raisin-black !important;
+  border-color: $color-raisin-black !important;
+}

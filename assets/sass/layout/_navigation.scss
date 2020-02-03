@@ -1,13 +1,13 @@
-.nav {
-    background-color: $color-eerie-black;
+.navigation__image {
+    width: 81px;
+    height: 34px;
 }
 
-.nav--bar {
-    width: 1070px;
+.navigation {
+    background: $color-eerie-black;
+    padding: 20px;
 }
 
-.nav--bar--logo {
-    width: 78px;
-    height: 35px;
-
+.navigation__link-ruddypink {
+    color: $color-ruddy-pink !important;
 }

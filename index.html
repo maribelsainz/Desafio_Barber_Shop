@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Maribel Sainz">
   <meta name="description" content="sitio web Blog barberShop, estamos aquí para servirte">
   <title>Blog BarberShop</title>
-
 
   <!-- Google-Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap" rel="stylesheet">
 
   <!--Fonts -->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" href="">
-  <!-- <link href="css/fontawesome-all.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
   <!-- Mis estilos -->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -23,76 +24,125 @@
 
 <body>
   <!-- Barra de navegacion -->
-  <nav class="nav navbar navbar-expand-lg navbar-dark fixed-top ">
-    <div class="nav--bar container">
-      <a class="navbar-brand" href="#"> <img class="nav--bar--logo" src="assets/img/logo.png" alt="Logo BarberShop">
-      </a>
-
+  <nav class="navigation navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <img class="navigation__image" src="assets/img/logo.png" alt="Logo Barber Shop">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class=" nav--bar--container collapse navbar-collapse" id="navbarNav">
-        <ul class="nav--bar--container--list navbar-nav ml-auto">
-          <li class="nav--bar--container--list--items nav-item">
-            <a class="nav-link" href="#about">Nosotros</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
           </li>
-          <li class="nav--bar--container--list--items nav-item">
-            <a class="nav-link" href="#work">Trabajos</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#trabajos">Trabajos</a>
           </li>
-          <li class="nav--bar--container--list--items nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
+          <li class="nav-item">
+            <a class="nav-link navigation__link-ruddypink" href="#blog">Blog</a>
           </li>
-          <li class="nav--bar--container--list--items nav-item">
-            <a class="nav-link" href="#hours">Horas</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#horas">Horas</a>
           </li>
-          <li class="nav--bar--container--list--items nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-
   <!-- Cabecera -->
-  <header class="header">
+  <header class="header pt-5 ">
 
-    <div class="header__image">
-      <h1>hola</h1>
-      <i class="fas fa-angle-double-down"></i>
+    <div class="">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="header__text">5 formas de cuidar <br> tu corte de cabello</h1>
+          <div class="header_icon">
+            <i class="fas fa-angle-double-down fa-3x"></i>
+          </div>
+        </div>
+      </div>
     </div>
-
   </header>
 
   <!-- Secciones -->
-  <section class="post">
+  <main class="post">
+    <h3 class="mt-5 mb-5">12 de abril de 2018</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc quam, eget scelerisque quam
+      semper quis. Mauris maximus blandit lorem, sit amet condimentum eros auctor quis. In ut semper ipsum, nec
+      condimentum est. Phasellus sodales, nunc vitae feugiat consequat, turpis velit euismod mi, eget scelerisque felis
+      odio nec tortor. Ut nibh ex, tincidunt eu faucibus vel, sollicitudin ut velit.</p>
+    <p>Fusce dapibus turpis massa, nec pellentesque libero porttitor eu. Fusce vel pellentesque augue. Cras finibus elit
+      nec nisl vehicula, in interdum dolor volutpat. Duis arcu odio, aliquet non sapien vitae, scelerisque aliquam
+      lorem. Suspendisse et sem tincidunt, tincidunt odio id, varius enim. Vestibulum faucibus augue id fringilla
+      vulputate. Sed vitae magna eu enim pellentesque laoreet. Pellentesque id molestie eros. Nunc quam nisi, efficitur
+      in scelerisque eu, lacinia vel erat.</p>
+    <p>Suspendisse vel lobortis lectus, eu convallis mauris. Praesent id odio imperdiet, tincidunt ex a, aliquam libero.
+      Duis ultricies nisi nulla, eget cursus nibh interdum tempus. Integer sodales tincidunt imperdiet. Aenean ornare at
+      tortor sed facilisis. Nulla gravida turpis ac ullamcorper iaculis. Cras fringilla felis id nibh efficitur ornare.
+      Aenean accumsan orci sit amet semper eleifend. </p>
+    <p>Proin quis tortor ante. Cras fermentum urna a felis placerat, eget malesuada ipsum placerat. Fusce scelerisque,
+      leo quis auctor lacinia, mauris justo porta enim, eget dictum nisi sapien eget ex.</p>
+    <p>Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper
+      massa, eu pellentesque purus vehicula non. <span>Praesent tincidunt convallis</span> ipsum, quis convallis metus.
+      Vivamus ac gravida lectus, eget ultricies nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+      Nullam tristique pulvinar est at tristique. Vestibulum non blandit ex. Suspendisse ipsum justo, feugiat eu feugiat
+      et, condimentum sit amet ipsum. Pellentesque eu vulputate dolor. Aliquam pretium arcu nec aliquet varius.</p>
 
-    <button class="header--button--medium">Comentar en Twitter</button>
-    <button class="header--button--small">Compartir</button>
+    <section class="botones mt-4">
+      <button type="button" class="header--button--medium">Comentar en Twitter</button>
+      <button type="button" class="header--button--small">Compartir</button>
+    </section>
+  </main>
 
-  </section>
-
+  <hr>
 
   <section class="blogger">
 
-
+    <div class="col-12 text-center">
+      <div class="row autor pt-5 pb-5">
+        <div class="col-md-4 autor__imagen">
+          <img class="autor__image" src="assets/img/naomi-thai.png" alt="foto Naomi Thai">
+        </div>
+        <div class="col-md-4 autor__marca pt-5 text-sm-left">
+          <h2>Naomi Thai</h2>
+          <p class="autor__link-ruddypink mb-1">@Naothai</p>
+          <p class="autor__link-ruddypink">depelos.com</p>
+        </div>
+        <div class="col-md-4 autor__descripcion d-none d-md-block pt-5 text-sm-left">
+          <p>Fusce in eros purus. Fusce volutpat nisi purus, ac vehicula ipsum sollicitudin in. Praesent ultrices semper
+            massa, eu pellentesque purus vehicula non. Praesent tincidunt convallis ipsum, quis convallis metus. </p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="pages">
-
-
-
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link pages__link" href="#" tabindex="-1">Anterior</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link pages__link" href="#">1</a>
+      </li>
+      <li class="page-item active ">
+        <a class="page-link pages__link pages__link-act" href="#">2 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="page-item">
+        <a class="page-link pages__link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link pages__link" href="#">Siguiente</a>
+      </li>
+    </ul>
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-
-
-
+  <footer class="footer text-center">
+    <img class="footer__image" src="assets/img/logo.png" alt="Logo Barber Shop">
   </footer>
-
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

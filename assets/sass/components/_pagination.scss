@@ -1,0 +1,18 @@
+.paginador {
+  height: 110px;
+  padding-top: 35px;
+  background: $color-light-gray;
+}
+
+.paginador__link {
+  color: $color-raisin-black;
+
+  &:hover {
+    color: $color-raisin-black;
+  }
+}
+
+.paginador__link-act {
+  background-color: $color-raisin-black !important;
+  border-color: $color-raisin-black !important;
+}

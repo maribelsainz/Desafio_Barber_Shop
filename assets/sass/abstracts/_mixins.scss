@@ -1,12 +1,22 @@
 @mixin button--medium($color-white, $color-nickel, $medium, $regular, $roboto) {
-width: 180px;
-height: 52px;
-border-radius: 26px;
-background-color: $color-nickel;
-font-family: $roboto;
-font-weight: $regular;
-font-size: $medium;
-color: $color-white;
+    width: 180px;
+    height: 52px;
+    border-radius: 26px;
+    background-color: $color-nickel;
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium;
+    color: $color-white;
+
+    &:hover {
+        background-color: $color-platinum;
+        border-color: $color-platinum;
+    }
+
+    &focus {
+        background-color: $color-nickel;
+        border-color: $color-platinum;
+    }
 }
 
 @mixin button--small($color-white, $color-nickel, $small, $regular, $roboto) {
@@ -18,5 +28,14 @@ color: $color-white;
     font-weight: $regular;
     font-size: $medium;
     color: $color-white;
-}
 
+    &:hover {
+        background-color: $color-platinum;
+        border-color: $color-platinum;
+    }
+
+    &focus {
+        background-color: $color-nickel;
+        border-color: $color-platinum;
+    }
+}

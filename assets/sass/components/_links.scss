@@ -1,0 +1,12 @@
+.autor__link-ruddypink {
+  color: $color-ruddy-pink;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-raisin-black;
+  }
+
+  &:active {
+    color: $color-platinum;
+  }
+}
